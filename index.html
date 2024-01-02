@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container screen">
+      <h1>Binary to decimal converter</h1>
+      <div class="container" id="box">
+        <span data-value="7" class="display">0</span>
+        <span data-value="6" class="display">0</span>
+        <span data-value="5" class="display">0</span>
+        <span data-value="4" class="display">0</span>
+        <span data-value="3" class="display">0</span>
+        <span data-value="2" class="display">0</span>
+        <span data-value="1" class="display">0</span>
+        <span data-value="0" class="display">0</span>
+
+        <button class="switch" data-value="7">+</button>
+        <button class="switch" data-value="6">+</button>
+        <button class="switch" data-value="5">+</button>
+        <button class="switch" data-value="4">+</button>
+        <button class="switch" data-value="3">+</button>
+        <button class="switch" data-value="2">+</button>
+        <button class="switch" data-value="1">+</button>
+        <button class="switch" data-value="0">+</button>
+
+        <span data-value="7" class="output">0</span>
+        <span data-value="6" class="output">0</span>
+        <span data-value="5" class="output">0</span>
+        <span data-value="4" class="output">0</span>
+        <span data-value="3" class="output">0</span>
+        <span data-value="2" class="output">0</span>
+        <span data-value="1" class="output">0</span>
+        <span data-value="0" class="output">0</span>
+      </div>
+      <div class="container user">
+        <button id="reset">Reset</button>
+
+        <br />
+        <span>Use the buttons above to make a binary number</span>
+        <br />
+        <span>Below is the decimal equivalent</span>
+      </div>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
